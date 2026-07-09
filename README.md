@@ -17,6 +17,7 @@ A simple and responsive Expense Tracker built using **HTML, CSS, and JavaScript*
 - 📱 Responsive Design
 - ⚡ Fast and Easy to Use
 
+
 ## 🛠️ Technologies Used
 
 - HTML5
