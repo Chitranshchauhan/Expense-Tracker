@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:400px;
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.container h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#333;
+}
+
+.balance-box{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.balance-box h1{
+    color:#28a745;
+}
+
+.input-box{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.input-box input,
+.input-box select{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.input-box button{
+    padding:12px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+.input-box button:hover{
+    background:#0056b3;
+}
+
+h2{
+    margin:20px 0 10px;
+}
+
+#transactionList{
+    list-style:none;
+}
+
+#transactionList li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px;
+    margin-bottom:10px;
+    border-radius:8px;
+    background:#f4f4f4;
+    font-weight:bold;
+}
+
+.income{
+    border-left:5px solid green;
+}
+
+.expense{
+    border-left:5px solid red;
+}
+
+.delete-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:5px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
