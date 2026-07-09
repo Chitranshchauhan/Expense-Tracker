@@ -6,10 +6,6 @@ A simple and responsive Expense Tracker built using **HTML, CSS, and JavaScript*
 
 🔗 https://chitranshchauhan.github.io/Expense-Tracker/
 
-## 📸 Screenshot
-
-![Expense Tracker](./screenshot.png)
-
 ## ✨ Features
 
 - ➕ Add Income
